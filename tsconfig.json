@@ -1,9 +1,13 @@
 {
     "compilerOptions": {
-         "baseUrl": "src", // 루트 폴더 url
-       },
-       "include": [
+      "baseUrl": "src", // 루트 폴더 url
+      "typeRoots": ["/node_modules/@types", "types"],
+      "types": ["@types/jest"],
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "jsx": "react"
+    },
+    "include": [
          "src"
-       ]
-     }
+    ]
 }

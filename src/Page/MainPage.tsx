@@ -1,10 +1,9 @@
 import React from "react";
-
-
-const MainPage : React.FC = () => {
+//import * as Mcomponent from 'Component/Main';
+//import * as Ccomponent from 'Component/Common'
+const MainPage = () => {
     return(
-        <div>
-            </div>
+        <>adssad</>
     )
 }
 export default MainPage
